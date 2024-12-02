@@ -45,10 +45,10 @@ export default {
     async enviarDados() {
 
 
-      const apiUrlEvent = `https://5615-2804-14d-78a6-830d-91e2-ccf4-7fa7-1e43.ngrok-free.app/events/${this.eventDetails.id}`;
-      const apiUrlGuest = "https://5615-2804-14d-78a6-830d-91e2-ccf4-7fa7-1e43.ngrok-free.app/guest";
-      const apiUrlCompanion = "https://5615-2804-14d-78a6-830d-91e2-ccf4-7fa7-1e43.ngrok-free.app/companion";
-      const apiUrlGuestAndEvent = "https://5615-2804-14d-78a6-830d-91e2-ccf4-7fa7-1e43.ngrok-free.app/eventAndGuests";
+      const apiUrlEvent = `https://568d-2804-14d-78a6-830d-91e2-ccf4-7fa7-1e43.ngrok-free.app/events/${this.eventDetails.id}`;
+      const apiUrlGuest = "https://568d-2804-14d-78a6-830d-91e2-ccf4-7fa7-1e43.ngrok-free.app/guest";
+      const apiUrlCompanion = "https://568d-2804-14d-78a6-830d-91e2-ccf4-7fa7-1e43.ngrok-free.app/companion";
+      const apiUrlGuestAndEvent = "https://568d-2804-14d-78a6-830d-91e2-ccf4-7fa7-1e43.ngrok-free.app/eventAndGuests";
 
       if (this.lista.some((guest) => !guest.name || !guest.age || !guest.contact || !guest.sexy)) {
         alert("Por favor, preencha todos os campos antes de enviar.");
