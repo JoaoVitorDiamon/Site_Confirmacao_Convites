@@ -13,7 +13,7 @@ const routes = [
     name: "Event",
     beforeEnter: async (to, from, next) => {
       const eventId = to.params.eventId;
-      const apiUrl = `https://568d-2804-14d-78a6-830d-91e2-ccf4-7fa7-1e43.ngrok-free.app/events/${eventId}`;
+      const apiUrl = `https://9da1-2804-47e4-8842-8300-7c25-dfaf-9335-e51c.ngrok-free.app/events/${eventId}`;
 
       try {
         const response = await fetch(apiUrl, {
